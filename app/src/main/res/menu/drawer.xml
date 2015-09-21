@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_top"
+            android:checked="true"
+            android:icon="@drawable/ic_attachment"
+            android:title="@string/top_movies" />
+        <item
+            android:id="@+id/navigation_item_theater"
+            android:icon="@drawable/ic_image"
+            android:title="@string/in_theater" />
+        <item
+            android:id="@+id/navigation_item_soon"
+            android:icon="@drawable/ic_place"
+            android:title="@string/coming_soon" />
+    </group>
+</menu>
